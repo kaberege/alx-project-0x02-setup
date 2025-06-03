@@ -11,5 +11,5 @@ export interface PostModalProps {
 export interface ButtonProps {
     size: "w-sm" | "w-md" | "w-lg";
     shape: "rounded-sm" | "rounded-md" | "rounded-full";
-    title: "Small" | "Medium" | "Large";
+    title: "small" | "medium" | "large";
 }
