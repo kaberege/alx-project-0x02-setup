@@ -4,7 +4,6 @@ import { type PostProps } from '@/interfaces'
 import PostCard from '@/components/common/PostCard'
 
 const Posts: React.FC = ({ posts }: any) => {
-    console.log(posts)
     return (
         <div>
             <Header />

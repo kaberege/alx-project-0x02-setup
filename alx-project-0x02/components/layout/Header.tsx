@@ -22,6 +22,12 @@ const Header: React.FC = () => {
       >
         Posts
       </Link>
+        <Link
+        href="/users"
+        className='p-2 hover:bg-amber-500 transition-colors'
+      >
+        Users
+      </Link>
     </div>
   )
 }
