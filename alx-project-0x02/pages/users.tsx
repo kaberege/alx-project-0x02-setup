@@ -7,7 +7,7 @@ const Users: React.FC = ({ users }: any) => {
     return (
         <div>
             <Header />
-            <h1 className='text-3xl font-bold text-center mb-5'>List of available posts</h1>
+            <h1 className='text-3xl font-bold text-center mb-5'>List of available Users</h1>
             <div className='container flex justify-between gap-3 flex-wrap mx-auto'>
                 {users?.map(({ id, name, username, email, address, phone, website, company }: UserProps, key: number) => (
                     <UserCard
