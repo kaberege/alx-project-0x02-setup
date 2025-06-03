@@ -1,6 +1,6 @@
-import React, { use, useState } from 'react'
+import React, { useState } from 'react'
 import Card from '@/components/common/Card'
-import type { CardProps, PostModalProps } from '@/interfaces'
+import type { CardProps} from '@/interfaces'
 import PostModal from '@/components/common/PostModal'
 
 const Home = () => {
@@ -15,7 +15,8 @@ const Home = () => {
             <h1 className='text-2xl text-neutral-950 font-bold text-center mt-4'>This is the home page</h1>
             <button
                 onClick={() => setIsModalOpen(true)}
-                className="bg-teal-700 hover:bg-teal-800 transition-colors duration-300 cursor-pointer px-4 py-2 rounded-full text-white"
+                className="bg-teal-700 hover:bg-teal-800 transition-colors duration-300 cursor-pointer px-4 py-2 
+                rounded-full text-white"
             >
                 Add Post
             </button>

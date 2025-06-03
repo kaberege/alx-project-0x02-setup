@@ -55,13 +55,13 @@ const PostModal: React.FC<PostModalProps> = ({ onClose, onSubmit }) => {
                         <button
                             type="button"
                             onClick={onClose}
-                            className="px-4 py-2 text-gray-600 hover:text-gray-800 focus:outline-none"
+                            className="px-4 py-2 border-[1px] border-gray-500 rounded-lg text-gray-600 hover:text-gray-800 focus:outline-none cursor-pointer" 
                         >
                             Cancel
                         </button>
                         <button
                             type="submit"
-                            className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
+                            className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition cursor-pointer"
                         >
                             Add Post
                         </button>
