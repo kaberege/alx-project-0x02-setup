@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import Card from '@/components/common/Card'
-import type { CardProps} from '@/interfaces'
+import type { CardProps } from '@/interfaces'
 import PostModal from '@/components/common/PostModal'
+import Header from '@/components/layout/Header'
 
 const Home = () => {
     const [posts, setPosts] = useState<CardProps[]>([])
@@ -12,6 +13,7 @@ const Home = () => {
     }
     return (
         <div className='min-h-screen'>
+            <Header />
             <h1 className='text-2xl text-neutral-950 font-bold text-center mt-4'>This is the home page</h1>
             <button
                 onClick={() => setIsModalOpen(true)}

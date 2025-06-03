@@ -3,15 +3,24 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <div className='bg-neutral-400 text-xl flex items-center justify-center'>
+    <div className='bg-neutral-200 text-xl flex items-center justify-center shadow-sm shadow-neutral-500 mb-4'>
       <Link
         href="/home"
-        className='p-2 bg-amber-300 hover:bg-amber-500 transition-colors'
-      >Home</Link>
+        className='p-2 hover:bg-amber-500 transition-colors'
+      >
+        Home
+      </Link>
       <Link
-        href="/about">
-        className='p-2 bg-amber-300 hover:bg-amber-500 transition-colors'
+        href="/about"
+        className='p-2 hover:bg-amber-500 transition-colors'
+      >
         About
+      </Link>
+      <Link
+        href="/posts"
+        className='p-2 hover:bg-amber-500 transition-colors'
+      >
+        Posts
       </Link>
     </div>
   )
