@@ -4,7 +4,7 @@ import type { CardProps } from '@/interfaces'
 import PostModal from '@/components/common/PostModal'
 import Header from '@/components/layout/Header'
 
-const Home = () => {
+const Home:React.FC = () => {
     const [posts, setPosts] = useState<CardProps[]>([])
     const [isModelOpen, setIsModalOpen] = useState<boolean>(false)
 

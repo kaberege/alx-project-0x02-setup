@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <div className='bg-neutral-200 text-xl flex items-center justify-center shadow-sm shadow-neutral-500 mb-4'>
       <Link
